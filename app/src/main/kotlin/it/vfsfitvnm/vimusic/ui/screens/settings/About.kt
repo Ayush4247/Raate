@@ -39,7 +39,7 @@ fun About() {
     ) {
         Header(title = "About") {
             BasicText(
-                text = "v${BuildConfig.VERSION_NAME} by vfsfitvnm",
+                text = "v${BuildConfig.VERSION_NAME} by Ayush Sharma",
                 style = typography.s.secondary
             )
         }
@@ -47,10 +47,10 @@ fun About() {
         SettingsEntryGroupText(title = "SOCIAL")
 
         SettingsEntry(
-            title = "GitHub",
-            text = "View the source code",
+            title = "Instagram",
+            text = "Follow me on Instagram..",
             onClick = {
-                uriHandler.openUri("https://github.com/vfsfitvnm/ViMusic")
+                uriHandler.openUri("https://www.instagram.com/ayushsharma4247/")
             }
         )
 
@@ -60,17 +60,17 @@ fun About() {
 
         SettingsEntry(
             title = "Report an issue",
-            text = "You will be redirected to GitHub",
+            text = "You will be redirected to my Telegram",
             onClick = {
-                uriHandler.openUri("https://github.com/vfsfitvnm/ViMusic/issues/new?assignees=&labels=bug&template=bug_report.yaml")
+                uriHandler.openUri("https://t.me/@Ayush424")
             }
         )
 
         SettingsEntry(
-            title = "Request a feature or suggest an idea",
-            text = "You will be redirected to GitHub",
+            title = "Suggest an Idea",
+            text = "You will be redirected to Telegram",
             onClick = {
-                uriHandler.openUri("https://github.com/vfsfitvnm/ViMusic/issues/new?assignees=&labels=enhancement&template=feature_request.yaml")
+                uriHandler.openUri("https://t.me/@Ayush424")
             }
         )
     }

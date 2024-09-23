@@ -66,7 +66,7 @@ fun SearchScreen(
                             .align(Alignment.CenterEnd)
                     ) {
                         BasicText(
-                            text = "Enter a name",
+                            text = "Konsa Gaana",
                             maxLines = 1,
                             style = LocalAppearance.current.typography.xxl.secondary
                         )
